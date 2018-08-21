@@ -1,9 +1,9 @@
 spring:
   application:
-    name: matrix-inventory-dispatcher-local
+    name: matrix-inventory-dispatcher
 
 server:
-  port: 8081
+  port: 9002
   
 inventory:
-  url: http://localhost:8080
+  url: http://matrix-inventory-manager:9003
